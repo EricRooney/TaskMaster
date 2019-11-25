@@ -38,6 +38,7 @@ export default class List {
 
   drawTasks() {
     let template = "";
+    console.log("DrawingTasks");
     this.tasks.forEach(task => {
       template += task.template;
     });

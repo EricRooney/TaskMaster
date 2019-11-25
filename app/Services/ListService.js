@@ -1,6 +1,7 @@
 import List from "../Models/List.js";
 import Task from "../Models/Task.js";
 import _store from "../store.js";
+import Swal from "../../node_modules/sweetalert2/src/sweetalert2.js";
 
 //Public
 class ListService {
