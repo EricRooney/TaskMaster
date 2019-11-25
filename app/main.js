@@ -4,9 +4,7 @@ import ListController from "./Controllers/ListController.js";
 class App {
   listController = new ListController();
 
-  constructor() {
-    console.log("Main Works");
-  }
+  constructor() {}
 }
 
 window["app"] = new App();
